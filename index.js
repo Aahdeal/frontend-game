@@ -35,7 +35,7 @@ function checkAnswer(currentLevel){
         }
       }
     else {
-        $("h1").text("failed, start over by pressing any key.");
+        $("h1").text("failed, start over by pressing this or any key.");
         startOver();
     }
 }
