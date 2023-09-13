@@ -47,7 +47,12 @@ $(document).keypress(function(event){
         nextSequence();
     }
 })
-
+$(document).click(function(event){
+    if (first == "true"){
+        first = "false";
+        nextSequence();
+    }
+})
 function startOver() {
     level = 0;
     gamePattern = [];
