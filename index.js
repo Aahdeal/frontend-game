@@ -47,7 +47,7 @@ $(document).keypress(function(event){
         nextSequence();
     }
 })
-$("h1").click(function(event){
+$(".start").click(function(event){
     if (first == "true"){
         first = "false";
         nextSequence();
